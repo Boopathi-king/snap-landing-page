@@ -9,62 +9,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
 <body>
-    <header class="logo-section">
-        <img src="assets/logo.svg" alt="snap logo" class="logo">
-        <nav class="nav">
-                <ul class="navbar">
-                    <li class="close"><i class="fa-solid fa-xmark fa-2xl"></i><li>
-                    <li class="nav-link features">
-                        <a tabindex="0
-                        ">Features <img src="./assets/icon-arrow-down.svg" alt="arrow down" class="img-icon arrow dropdown-btn"></a>
-                        <ul class="dropdown">
-                            <li class="sub-item">
-                                <a href="#"><img src="./assets/icon-todo.svg"alt="todo icon"><span class="list-item">Todo List</span></a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="#"><img src="./assets/icon-calendar.svg" alt="calender icon"><span class="list-item">Calender</span></a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="#"><img src="./assets/icon-reminders.svg" alt="reminder icon"><span class="list-item">Reminder</span></a>
-                            </li>
-                            <li class="sub-item">
-                                <a href="#"><img src="./assets/icon-planning.svg" alt="planning icon"><span class="list-item">Planning</span></a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="nav-link company"><a tabindex="0">Company</a>
-                        <img src="./assets/icon-arrow-down.svg" alt="arrow down" class=" img-icon arrow dropdown-btn">
-                        <ul class="dropdown">
-                            <li class="sub-item"><a href="#">History</a></li>
-                            <li class="sub-item"><a href="#">Our Team</a></li>
-                            <li class="sub-item"><a href="#">Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-link"><a href="#">Careers</a></li>
-                    <li class="nav-link"><a href="#">About</a></li>
-                    <li class="nav-link nav-btns"><a href="#">Login</a></li>
-                    <li class="nav-link "><a href="#">Register</a></li>
-                    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding: 0; margin-top: 10px;">
+      
+        <div class="container-fluid" style="background: white;">
+          <a class="navbar-brand" href="#"> <img src="./assets/logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Features
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"><img src="./assets/icon-todo.svg" alt="" style="margin-right: 5px;"> Todo List</a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./assets/icon-calendar.svg" alt="" style="margin-right: 5px;">Calender </a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./assets/icon-reminders.svg" alt="" style="margin-right: 5px;"> Remainder </a></li>
+                  <li><a class="dropdown-item" href="#"><img src="./assets/icon-planning.svg" alt="" style="margin-right: 5px;"> Planning</a></li>
                 </ul>
-                
-            </nav>
-            <!-- <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div> -->
-        </header>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Company
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Our Team</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;">
+            <div class="rht-con" style="display:flex">
+              <li class="nav-item" style="list-style: none; padding: 5px; color: lightslategrey; margin-right: 10px; margin-top: 10px;">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <button class="btnn" style="border-radius: 20px; background-color: white; width: 100px; color: #505458; margin-top: 5px; padding: auto; "> Register</button>
+            </div>      
+            </ul>
+          </div>
+        </div>
+      </div>
+      </nav>
+        
     
         <main class="main-section">
             <!--<h3>Make remote work</h3>-->
             <h3><span>Make</span> <span>remote work</span></h3>
     
             <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-            <button>Learn More</button>
+            <button class="learn-more">Learn More</button>
             <ul class="main-logos">
                 <li><img src="./assets/client-databiz.svg" alt="databiz logo" class="logo-main"></li>
                 <li><img src="./assets/client-audiophile.svg" alt="audiophile logo" class="logo-main"></li>
@@ -74,6 +79,6 @@
             <img class="desktop" src="./assets/image-hero-desktop.png">
             <!-- <img  class= "mobile" src="./assets/image-hero-mobile.png" alt="logo image mobile"> -->
         </main>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
